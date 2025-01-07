@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: SetObjectAsVariableSU
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":"Player","$type":"System.String"},"_type":"System.String","key":"NameOfVariable","label":"NameOfVariable","summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-341.0,"y":-202.0},"guid":"13ef6dbd-5f67-4bf7-b325-705a129ed3b7","$version":"A","$type":"Unity.VisualScripting.Start","$id":"10"},{"kind":"Scene","defaultValues":{"name":{"$content":"","$type":"System.String"}},"position":{"x":-155.0,"y":-159.0},"guid":"67ce44e0-0dec-4d6c-95ff-da57d7e3e424","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"12"},{"defaultValues":{},"position":{"x":-331.0,"y":33.0},"guid":"746c300a-be4b-4ddd-973f-ad80f22614ad","$version":"A","$type":"Unity.VisualScripting.This","$id":"14"},{"defaultValues":{},"position":{"x":-370.0,"y":-87.0},"guid":"900f7fef-07e6-4f38-bc1c-ea08d914e5b6","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"assign","guid":"99c7d946-ace8-4295-812e-787f43fe3055","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"self","destinationUnit":{"$ref":"12"},"destinationKey":"input","guid":"7cb50d0c-4ce1-4938-be50-0e879fe10fd0","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"NameOfVariable","destinationUnit":{"$ref":"12"},"destinationKey":"name","guid":"0de52405-5b58-45f1-b9a7-ecdb9b1d7355","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
